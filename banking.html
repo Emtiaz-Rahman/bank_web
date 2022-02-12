@@ -15,9 +15,9 @@
             <span class="font-bold text-purple-600">Some Money</span>
         </h1>
     </header>
-    <main>
+    <main class="w-2/4 mx-auto">
         <section class="mt-8">
-            <div class="grid grid-cols-3 gap-4 w-2/4 mx-auto text-white">
+            <div class="grid grid-cols-3 gap-4  text-white">
                 <div class="bg-blue-400 p-8 rounded">
                     <h3 class="text-2xl">Deposite</h3>
                     <h4 class="text-4xl">$00</h4>
@@ -31,6 +31,35 @@
                     <h4 class="text-4xl">$1200</h4>
                 </div>
 
+            </div>
+        </section>
+        <section class="mt-8">
+            <div class="grid grid-cols-2">
+                <div class="bg-teal-200 rounded p-8 mx-4">
+                    <h4 class="text-2xl mb-4">Please Deposite</h4>
+
+                    <div>
+                        <input id="deposite_amount" class="border-2 border-gray-400 rounded mb-4 px-2 block w-11/12"
+                            type="text" placeholder="$Amount you want to deposite">
+
+                        <button id="submit_button" class="bg-orange-400 px-8 py-2 rounded text-white">Deposite</button>
+                    </div>
+
+
+                </div>
+                <div class="bg-rose-400 rounded p-8 mx-4">
+                    <h4 class="text-2xl mb-4">Amount Withdraw</h4>
+
+                    <div>
+                        <input id="withdraw_amount" class="border-2 border-gray-400 rounded mb-4 px-2 block w-11/12"
+                            type="text" placeholder="$Amount you want to Withdraw">
+
+                        <button id="submit_button" class="bg-orange-400 px-8 py-2 rounded text-white">Withdraw</button>
+                    </div>
+
+
+                </div>
+                
             </div>
         </section>
     </main>
