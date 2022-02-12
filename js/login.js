@@ -9,4 +9,8 @@ document.getElementById('submit_button').addEventListener('click', function () {
         window.location.href = 'banking.html'
     }
 
-})
+});
+
+
+
+
